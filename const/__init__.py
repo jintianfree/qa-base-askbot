@@ -453,7 +453,7 @@ SEARCH_ORDER_BY = (
                   )
 
 DEFAULT_QUESTION_WIDGET_STYLE = """
-@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700');
+@import url('http://fonts.useso.com/css?family=Yanone+Kaffeesatz:300,400,700');
 body {
     overflow: hidden;
 }

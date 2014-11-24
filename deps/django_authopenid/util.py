@@ -519,7 +519,7 @@ def get_enabled_major_login_providers():
                 'type': 'oauth2',
                 'auth_endpoint': 'https://accounts.google.com/o/oauth2/auth',
                 'token_endpoint': 'https://accounts.google.com/o/oauth2/token',
-                'resource_endpoint': 'https://www.googleapis.com/plus/v1/people/',
+                'resource_endpoint': 'https://www.useso.com/plus/v1/people/',
                 'icon_media_path': '/jquery-openid/images/google.gif',
                 'get_user_id_function': get_google_user_id,
                 'extra_auth_params': {'scope': ('profile', 'email', 'openid'), 'openid.realm': askbot_settings.APP_URL}

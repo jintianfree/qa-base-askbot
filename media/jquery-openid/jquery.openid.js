@@ -2,7 +2,7 @@ var renderGooglePlusBtn = function() {
     gapi.signin.render('google-plus-btn-id', {
         'clientid': askbot['settings']['googlePlusPublicKey'],
         'cookiepolicy': 'single_host_origin',
-        'scope': 'https://www.googleapis.com/auth/plus.login'
+        'scope': 'https://www.useso.com/auth/plus.login'
     });
 };
 
